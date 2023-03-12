@@ -20,5 +20,7 @@ Ce fichier Dockerfile contient des instructions pour la création d'une image Do
     
 9.  **`ENTRYPOINT ["/usr/sbin/nginx", "-g", "daemon off;"]`** Cette ligne définit la commande par défaut à exécuter lorsque le conteneur est démarré. Dans ce cas, la commande est `nginx` avec les arguments **`-g daemon off;`**. Cette commande démarre le serveur web Nginx et le maintient en cours d'exécution en arrière-plan.
 
+<p align="center">
 <img src="https://user-images.githubusercontent.com/40942166/224547004-c71c1274-cc72-44a4-8d7f-4caa5a1c84fc.jpg" width="300" height="100">
+</p>
 
